@@ -27,5 +27,7 @@ The project can be install through cloning the github repo and `pip install .` i
 
 ### Publishing
 
+In this project when you push to `CHANGELOG.rst`, this triggers the `tag_and_release` workflow. Creating a tag via `git tag -l` and running the `tag-from-pipeline.sh` bash script. Once a tag has been created this workflow triggers the `publish.yml` workflow, publishing the package to PyPI. 
+
 - Tag and Release 
 - Publish to PyPI 

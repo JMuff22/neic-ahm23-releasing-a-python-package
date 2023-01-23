@@ -32,7 +32,7 @@ dev = [
 "Bug Tracker" = "https://github.com/JMuff22/neic-ahm23-releasing-a-python-package/issues"
 
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=5", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
@@ -45,4 +45,4 @@ exclude = ["src.tests*"]  # exclude packages matching these glob patterns (empty
 namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
 
 [tool.setuptools.package-data]
-# "*" = ["*.json"]
+# "*" = ["*.json"] # If you want to include non *.py file 
