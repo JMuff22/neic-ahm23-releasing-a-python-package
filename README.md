@@ -18,3 +18,14 @@ Demo on how to release a python package with CI and Github Workflows using Twine
 ### Future work (help wanted)
 
 - Publishing docs with github actions along side publishing 
+
+
+### Installing 
+
+The project can be install through cloning the github repo and `pip install .` in the repo root directory. For an editable install you can use `pip install -e .`. For the dev build (twine, tox, wheel) you can use `pip install .[dev]`. 
+
+
+### Publishing
+
+- Tag and Release 
+- Publish to PyPI 
