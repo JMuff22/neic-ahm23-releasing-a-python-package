@@ -2,12 +2,12 @@
 Changelog
 =========
 
-Version 0.0.2
+Version 0.2
 ===========
 
 * Testing a new tag
 
-Version 0.0.1
+Version 0.1
 ===========
 
 * Project skeleton created.
