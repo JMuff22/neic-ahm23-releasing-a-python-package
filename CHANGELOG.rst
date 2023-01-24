@@ -2,6 +2,11 @@
 Changelog
 =========
 
+Version 0.3
+===========
+
+* Change some things for demo purposes 
+
 Version 0.2
 ===========
 
