@@ -35,7 +35,24 @@ What you will need in your own projects should you wish to fork is two secrets. 
 PYPI_USER
 PYPI_PASSWORD
 ```
-> :warning: **How could I use PyPI's API?**: https://pypi.org/help/#apitoken
-
 - Tag and Release 
 - Publish to PyPI 
+
+### How to make this package secure and publishing securely?
+
+This package is by no means secure. 
+
+- Signed commits and good secure git practices
+- Use PyPI API tokens and PyPI 2FA
+- Use dependabot to check for security issues in dependencies
+- Protected branches and setup Github rules
+- Protect your tags
+- Create a new GitHub environment for publishing 
+- Private vulnerablity reporting 
+
+It is also, always good practice to verify reproducible builds. 
+- Build locally and verify checksums:
+
+```
+sha256sum dist/*.whl
+``` 
