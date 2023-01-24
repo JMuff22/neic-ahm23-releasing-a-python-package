@@ -6,6 +6,7 @@ Version 0.2
 ===========
 
 * Testing a new tag
+* Fixed tag and release
 
 Version 0.1
 ===========
