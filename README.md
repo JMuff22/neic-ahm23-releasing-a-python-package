@@ -29,5 +29,13 @@ The project can be install through cloning the github repo and `pip install .` i
 
 In this project when you push to `CHANGELOG.rst`, this triggers the `tag_and_release` workflow. Creating a tag via `git tag -l` and running the `tag-from-pipeline.sh` bash script. Once a tag has been created this workflow triggers the `publish.yml` workflow, publishing the package to PyPI. 
 
+What you will need in your own projects should you wish to fork is two secrets. In your repositories settings > Secrets and variables > Actions add the following secrets:
+
+```
+PYPI_USER
+PYPI_PASSWORD
+```
+> :warning: **How could I use PyPI's API?**: https://pypi.org/help/#apitoken
+
 - Tag and Release 
 - Publish to PyPI 
