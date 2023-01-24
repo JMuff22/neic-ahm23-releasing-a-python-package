@@ -2,6 +2,11 @@
 Changelog
 =========
 
+Version 0.0.2
+===========
+
+* Testing a new tag
+
 Version 0.0.1
 ===========
 
