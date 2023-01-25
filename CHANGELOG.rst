@@ -7,6 +7,7 @@ Version 0.3
 
 * Change some things for demo purposes 
 * Bumped version number in pyproject.toml
+* Added note to README to make sure version number was also bumped in `pyproject.toml`
 
 Version 0.2
 ===========

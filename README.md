@@ -17,6 +17,7 @@ Demo on how to release a python package with CI and Github Workflows using Twine
 ### Future work (help wanted)
 
 - Publishing docs with github actions along side publishing 
+- Making sure that `pyproject.toml` version number is also bumped. 
 
 
 ### Installing 
