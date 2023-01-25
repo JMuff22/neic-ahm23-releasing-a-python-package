@@ -2,6 +2,11 @@
 Changelog
 =========
 
+Version 0.4
+===========
+
+* Use `actions/checkout@v3` instead of V2 due to deprecation of Node12 with Github actions
+
 Version 0.3
 ===========
 
